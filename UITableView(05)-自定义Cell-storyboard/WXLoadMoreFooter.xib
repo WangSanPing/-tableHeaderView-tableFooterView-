@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WXLoadMoreFooter">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzB-hd-eDh">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
+                    <state key="normal" title="点击加载更多">
+                        <color key="titleColor" red="0.0048879253930000002" green="5.2272702849999999e-05" blue="0.00010246320639999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loadMore:" destination="iN0-l3-epB" eventType="touchUpInside" id="KAN-96-OEu"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHO-Au-dPJ" userLabel="正在加载更多">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在加载更多..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eE4-S8-F31">
+                            <rect key="frame" x="117" y="11" width="116" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="uqz-p5-JdP">
+                            <rect key="frame" x="89" y="12" width="20" height="20"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="eE4-S8-F31" firstAttribute="centerX" secondItem="mHO-Au-dPJ" secondAttribute="centerX" id="2yd-SP-4Z6"/>
+                        <constraint firstItem="uqz-p5-JdP" firstAttribute="centerY" secondItem="mHO-Au-dPJ" secondAttribute="centerY" id="Csz-pa-xMf"/>
+                        <constraint firstItem="eE4-S8-F31" firstAttribute="centerY" secondItem="mHO-Au-dPJ" secondAttribute="centerY" id="bHc-JW-qcn"/>
+                        <constraint firstItem="eE4-S8-F31" firstAttribute="leading" secondItem="uqz-p5-JdP" secondAttribute="trailing" constant="8" id="nmi-bi-xyS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.49868357229999999" blue="0.86409108830000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mHO-Au-dPJ" secondAttribute="trailing" id="5ec-mJ-Uyn"/>
+                <constraint firstAttribute="bottom" secondItem="mHO-Au-dPJ" secondAttribute="bottom" id="SEU-oZ-EeF"/>
+                <constraint firstItem="mHO-Au-dPJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aek-wC-UIB"/>
+                <constraint firstItem="OzB-hd-eDh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dZp-M4-WIX"/>
+                <constraint firstAttribute="trailing" secondItem="OzB-hd-eDh" secondAttribute="trailing" id="hjc-l1-r1U"/>
+                <constraint firstItem="OzB-hd-eDh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uMw-xz-0Jw"/>
+                <constraint firstItem="mHO-Au-dPJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ues-CG-MdM"/>
+                <constraint firstAttribute="bottom" secondItem="OzB-hd-eDh" secondAttribute="bottom" id="yh9-D5-TvF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="loadMoreButton" destination="OzB-hd-eDh" id="I44-rQ-SNR"/>
+                <outlet property="loadingMoreView" destination="mHO-Au-dPJ" id="Kgt-n0-FaB"/>
+            </connections>
+            <point key="canvasLocation" x="227" y="150"/>
+        </view>
+        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="Pdl-yc-9hs">
+            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="374" y="645"/>
+        </activityIndicatorView>
+    </objects>
+</document>

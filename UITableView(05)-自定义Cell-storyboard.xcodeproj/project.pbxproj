@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59619EFB1CCE4AD600D78007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59619EFA1CCE4AD600D78007 /* main.m */; };
+		59619EFE1CCE4AD600D78007 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59619EFD1CCE4AD600D78007 /* AppDelegate.m */; };
+		59619F041CCE4AD600D78007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59619F021CCE4AD600D78007 /* Main.storyboard */; };
+		59619F061CCE4AD600D78007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59619F051CCE4AD600D78007 /* Assets.xcassets */; };
+		59619F091CCE4AD600D78007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59619F071CCE4AD600D78007 /* LaunchScreen.storyboard */; };
+		59619F141CCE4AD600D78007 /* UITableView_05_____Cell_storyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59619F131CCE4AD600D78007 /* UITableView_05_____Cell_storyboardUITests.m */; };
+		59619F201CCE4F1C00D78007 /* WXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59619F1F1CCE4F1C00D78007 /* WXTableViewController.m */; };
+		59619F221CCE553100D78007 /* deals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59619F211CCE553100D78007 /* deals.plist */; };
+		59619F251CCE573E00D78007 /* WXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59619F241CCE573E00D78007 /* WXTableViewCell.m */; };
+		59619F281CCE578800D78007 /* WXData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59619F271CCE578800D78007 /* WXData.m */; };
+		596485A21CEB0D7C00660C3B /* WXPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 596485A01CEB0D7C00660C3B /* WXPageView.m */; };
+		596485A31CEB0D7C00660C3B /* WXPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596485A11CEB0D7C00660C3B /* WXPageView.xib */; };
+		596485A61CEB107400660C3B /* WXLoadMoreFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 596485A51CEB107400660C3B /* WXLoadMoreFooter.m */; };
+		596485A81CEB108100660C3B /* WXLoadMoreFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596485A71CEB108100660C3B /* WXLoadMoreFooter.xib */; };
+		596E3A011CCFB7DF005C25C3 /* UITableCellXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596E3A001CCFB7DF005C25C3 /* UITableCellXib.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59619F101CCE4AD600D78007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59619EEE1CCE4AD600D78007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59619EF51CCE4AD600D78007;
+			remoteInfo = "UITableView(05)-自定义Cell-storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59619EF61CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView(05)-自定义Cell-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59619EFA1CCE4AD600D78007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59619EFC1CCE4AD600D78007 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59619EFD1CCE4AD600D78007 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59619F031CCE4AD600D78007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59619F051CCE4AD600D78007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59619F081CCE4AD600D78007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59619F0A1CCE4AD600D78007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59619F0F1CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView(05)-自定义Cell-storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59619F131CCE4AD600D78007 /* UITableView_05_____Cell_storyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView_05_____Cell_storyboardUITests.m"; sourceTree = "<group>"; };
+		59619F151CCE4AD600D78007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59619F1E1CCE4F1C00D78007 /* WXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTableViewController.h; sourceTree = "<group>"; };
+		59619F1F1CCE4F1C00D78007 /* WXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTableViewController.m; sourceTree = "<group>"; };
+		59619F211CCE553100D78007 /* deals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = deals.plist; sourceTree = "<group>"; };
+		59619F231CCE573E00D78007 /* WXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTableViewCell.h; sourceTree = "<group>"; };
+		59619F241CCE573E00D78007 /* WXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTableViewCell.m; sourceTree = "<group>"; };
+		59619F261CCE578800D78007 /* WXData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXData.h; sourceTree = "<group>"; };
+		59619F271CCE578800D78007 /* WXData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXData.m; sourceTree = "<group>"; };
+		5964859F1CEB0D7C00660C3B /* WXPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPageView.h; sourceTree = "<group>"; };
+		596485A01CEB0D7C00660C3B /* WXPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPageView.m; sourceTree = "<group>"; };
+		596485A11CEB0D7C00660C3B /* WXPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXPageView.xib; sourceTree = "<group>"; };
+		596485A41CEB107400660C3B /* WXLoadMoreFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXLoadMoreFooter.h; sourceTree = "<group>"; };
+		596485A51CEB107400660C3B /* WXLoadMoreFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXLoadMoreFooter.m; sourceTree = "<group>"; };
+		596485A71CEB108100660C3B /* WXLoadMoreFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXLoadMoreFooter.xib; sourceTree = "<group>"; };
+		596E3A001CCFB7DF005C25C3 /* UITableCellXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableCellXib.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59619EF31CCE4AD600D78007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59619F0C1CCE4AD600D78007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59619EED1CCE4AD600D78007 = {
+			isa = PBXGroup;
+			children = (
+				59619EF81CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard */,
+				59619F121CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests */,
+				59619EF71CCE4AD600D78007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59619EF71CCE4AD600D78007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59619EF61CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard.app */,
+				59619F0F1CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59619EF81CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5964859F1CEB0D7C00660C3B /* WXPageView.h */,
+				596485A01CEB0D7C00660C3B /* WXPageView.m */,
+				596485A11CEB0D7C00660C3B /* WXPageView.xib */,
+				596485A41CEB107400660C3B /* WXLoadMoreFooter.h */,
+				596485A51CEB107400660C3B /* WXLoadMoreFooter.m */,
+				596485A71CEB108100660C3B /* WXLoadMoreFooter.xib */,
+				59619EFC1CCE4AD600D78007 /* AppDelegate.h */,
+				59619EFD1CCE4AD600D78007 /* AppDelegate.m */,
+				59619F261CCE578800D78007 /* WXData.h */,
+				59619F271CCE578800D78007 /* WXData.m */,
+				59619F1E1CCE4F1C00D78007 /* WXTableViewController.h */,
+				59619F1F1CCE4F1C00D78007 /* WXTableViewController.m */,
+				59619F231CCE573E00D78007 /* WXTableViewCell.h */,
+				59619F241CCE573E00D78007 /* WXTableViewCell.m */,
+				596E3A001CCFB7DF005C25C3 /* UITableCellXib.xib */,
+				59619EF91CCE4AD600D78007 /* Supporting Files */,
+			);
+			path = "UITableView(05)-自定义Cell-storyboard";
+			sourceTree = "<group>";
+		};
+		59619EF91CCE4AD600D78007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59619F211CCE553100D78007 /* deals.plist */,
+				59619F021CCE4AD600D78007 /* Main.storyboard */,
+				59619F051CCE4AD600D78007 /* Assets.xcassets */,
+				59619F071CCE4AD600D78007 /* LaunchScreen.storyboard */,
+				59619F0A1CCE4AD600D78007 /* Info.plist */,
+				59619EFA1CCE4AD600D78007 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59619F121CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59619F131CCE4AD600D78007 /* UITableView_05_____Cell_storyboardUITests.m */,
+				59619F151CCE4AD600D78007 /* Info.plist */,
+			);
+			path = "UITableView(05)-自定义Cell-storyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59619EF51CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59619F181CCE4AD600D78007 /* Build configuration list for PBXNativeTarget "UITableView(05)-自定义Cell-storyboard" */;
+			buildPhases = (
+				59619EF21CCE4AD600D78007 /* Sources */,
+				59619EF31CCE4AD600D78007 /* Frameworks */,
+				59619EF41CCE4AD600D78007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView(05)-自定义Cell-storyboard";
+			productName = "UITableView(05)-自定义Cell-storyboard";
+			productReference = 59619EF61CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59619F0E1CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59619F1B1CCE4AD600D78007 /* Build configuration list for PBXNativeTarget "UITableView(05)-自定义Cell-storyboardUITests" */;
+			buildPhases = (
+				59619F0B1CCE4AD600D78007 /* Sources */,
+				59619F0C1CCE4AD600D78007 /* Frameworks */,
+				59619F0D1CCE4AD600D78007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59619F111CCE4AD600D78007 /* PBXTargetDependency */,
+			);
+			name = "UITableView(05)-自定义Cell-storyboardUITests";
+			productName = "UITableView(05)-自定义Cell-storyboardUITests";
+			productReference = 59619F0F1CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59619EEE1CCE4AD600D78007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangxu;
+				TargetAttributes = {
+					59619EF51CCE4AD600D78007 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					59619F0E1CCE4AD600D78007 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 59619EF51CCE4AD600D78007;
+					};
+				};
+			};
+			buildConfigurationList = 59619EF11CCE4AD600D78007 /* Build configuration list for PBXProject "UITableView(05)-自定义Cell-storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59619EED1CCE4AD600D78007;
+			productRefGroup = 59619EF71CCE4AD600D78007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59619EF51CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard */,
+				59619F0E1CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59619EF41CCE4AD600D78007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596E3A011CCFB7DF005C25C3 /* UITableCellXib.xib in Resources */,
+				59619F091CCE4AD600D78007 /* LaunchScreen.storyboard in Resources */,
+				596485A81CEB108100660C3B /* WXLoadMoreFooter.xib in Resources */,
+				596485A31CEB0D7C00660C3B /* WXPageView.xib in Resources */,
+				59619F061CCE4AD600D78007 /* Assets.xcassets in Resources */,
+				59619F221CCE553100D78007 /* deals.plist in Resources */,
+				59619F041CCE4AD600D78007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59619F0D1CCE4AD600D78007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59619EF21CCE4AD600D78007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596485A21CEB0D7C00660C3B /* WXPageView.m in Sources */,
+				59619F201CCE4F1C00D78007 /* WXTableViewController.m in Sources */,
+				59619EFE1CCE4AD600D78007 /* AppDelegate.m in Sources */,
+				59619F251CCE573E00D78007 /* WXTableViewCell.m in Sources */,
+				596485A61CEB107400660C3B /* WXLoadMoreFooter.m in Sources */,
+				59619F281CCE578800D78007 /* WXData.m in Sources */,
+				59619EFB1CCE4AD600D78007 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59619F0B1CCE4AD600D78007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59619F141CCE4AD600D78007 /* UITableView_05_____Cell_storyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59619F111CCE4AD600D78007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59619EF51CCE4AD600D78007 /* UITableView(05)-自定义Cell-storyboard */;
+			targetProxy = 59619F101CCE4AD600D78007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59619F021CCE4AD600D78007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59619F031CCE4AD600D78007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59619F071CCE4AD600D78007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59619F081CCE4AD600D78007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59619F161CCE4AD600D78007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59619F171CCE4AD600D78007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59619F191CCE4AD600D78007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView(05)-自定义Cell-storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangxu.UITableView-05-----Cell-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59619F1A1CCE4AD600D78007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView(05)-自定义Cell-storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangxu.UITableView-05-----Cell-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59619F1C1CCE4AD600D78007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView(05)-自定义Cell-storyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangxu.UITableView-05-----Cell-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView(05)-自定义Cell-storyboard";
+			};
+			name = Debug;
+		};
+		59619F1D1CCE4AD600D78007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView(05)-自定义Cell-storyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangxu.UITableView-05-----Cell-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView(05)-自定义Cell-storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59619EF11CCE4AD600D78007 /* Build configuration list for PBXProject "UITableView(05)-自定义Cell-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59619F161CCE4AD600D78007 /* Debug */,
+				59619F171CCE4AD600D78007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59619F181CCE4AD600D78007 /* Build configuration list for PBXNativeTarget "UITableView(05)-自定义Cell-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59619F191CCE4AD600D78007 /* Debug */,
+				59619F1A1CCE4AD600D78007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59619F1B1CCE4AD600D78007 /* Build configuration list for PBXNativeTarget "UITableView(05)-自定义Cell-storyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59619F1C1CCE4AD600D78007 /* Debug */,
+				59619F1D1CCE4AD600D78007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59619EEE1CCE4AD600D78007 /* Project object */;
+}
